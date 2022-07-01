@@ -25,7 +25,7 @@ export default function Login() {
             <div class="rounded-md shadow-sm -space-y-px">
               <div>
                 <label for="email-address" class="sr-only">
-                  Email address
+                  Email
                 </label>
                 <input
                   id="email-address"
@@ -39,7 +39,7 @@ export default function Login() {
               </div>
               <div>
                 <label for="password" class="sr-only">
-                  Password
+                  Senha
                 </label>
                 <input
                   id="password"
@@ -66,11 +66,11 @@ export default function Login() {
                   class="ml-2 block text-sm text-gray-900"
                 >
                   {' '}
-                  Remember me{' '}
+                  Salvar senha{' '}
                 </label>
               </div>
 
-              <div class="text-sm">
+              {/* <div class="text-sm">
                 <a
                   href="#"
                   class="font-medium text-indigo-600 hover:text-indigo-500"
@@ -78,7 +78,7 @@ export default function Login() {
                   {' '}
                   Forgot your password?{' '}
                 </a>
-              </div>
+              </div> */}
             </div>
 
             <div>
