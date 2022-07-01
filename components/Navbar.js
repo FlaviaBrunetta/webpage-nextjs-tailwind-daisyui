@@ -5,7 +5,7 @@ export default function Navbar() {
   return (
     <div class="navbar bg-base-100">
       <div class="flex-1">
-        <a class="btn btn-ghost normal-case text-xl">daisyUI</a>
+        <a class="btn btn-ghost normal-case text-xl">HOME</a>
       </div>
       <div class="flex-none">
         <ul class="menu menu-horizontal p-0">
@@ -17,7 +17,7 @@ export default function Navbar() {
             <span class="sr-only">Menu com submenu</span>
 
             <a>
-              Parent
+              Item 2
               <CaretDown size={16} />
             </a>
             <ul class="p-2 bg-base-100 ">
