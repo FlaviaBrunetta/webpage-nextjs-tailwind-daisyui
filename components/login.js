@@ -1,10 +1,10 @@
 export default function Login() {
   return (
     <>
-      <div class="flex-none">
-        <label for="my-modal" className="btn btn-ghost btn-circle avatar">
+      <div class="flex-1">
+        <label for="my-modal" className="btn btn-ghost btn-circle">
           <img
-            className="rounded-full"
+            className="w-10 rounded-full"
             src="https://placeimg.com/80/80/people"
           />
         </label>

@@ -33,10 +33,8 @@ export default function Navbar() {
               </li>
             </ul>
           </li>
-          <li>
-            <Login />
-          </li>
         </ul>
+        <Login />
       </div>
     </div>
   );
